@@ -2,6 +2,11 @@
 #+macro: bl @@html:<span style="color:blue">$1</span>@@
 
 * Intro
+** Atayal
+- Formosan language.
+- Lexically aberrant.
+- CVCVC or CVCCVC word structure.
+
 ** [[./img/map.png]]
 ** Roadmap
 - Defining irregular verbs.
