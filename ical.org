@@ -1,0 +1,201 @@
+#+macro: br @@html:<br>@@
+#+macro: bl @@html:<span style="color:blue">$1</span>@@
+
+* Intro
+** [[./img/map.png]]
+** Roadmap
+- Defining irregular verbs.
+- Types of irregular verbs in Atayal.
+
+* @@html:<del>(ir)</del>regularity@@
+** What is regular? :animate:
+** What is regular? :animate:
+/nagaʔ/ 'wait' + /-un/ [PV] = *?*
+
+** What is regular? :animate:
+/nagaʔ/ + /-un/ 'wait [PV]':
+| Matu'uwal | /nagaʔun/ |
+| Squliq    | /nəgon/   |
+#+begin_small
+- Vowel reduction and coalescence in Squliq, but completely expected.
+#+end_small
+
+** Defining irregular verbs
+*Broad definition*:
+{{{br}}}
+Verbs whose suffixed forms are not obvious from their Actor Voice form.
+
+** 'Broad' irregularity
+- Includes word-final consonant neutralization, such as:
+  - /-l/ > /-n/, /-b/ > /-p/, /-p/ > /-k/, /-g/ [ɣ] > /-w/ (depending on dialect).
+    - See [cite/t: @li1980] for these and other alternations, mostly in Squliq.
+
+** Defining irregular verbs
+*Narrow definition*:
+{{{br}}}
+Changes other than applying regular phonological rules after affixation.
+
+** Defining irregular verbs
+- What is and isn't regular will depend on your UR.
+  - If a sound never appears in the SR, is it justifiable to put it in the UR from a speaker's perspective?
+
+** Irregular?
+'to bite'
+| Dialect                | AV        | PV                |
+|------------------------+-----------+-------------------|
+| Matu'uwal, Plngawan    | /k<um>at/ | /ka\textbf{c}-un/ |
+| Matu'aw                | /k<um>at/ | /ka\textbf{s}-un/ |
+| S'uli                  | /k<əm>at/ | /ka\textbf{s}-un/ |
+| Squliq, Skikun, Klesan | /k<əm>at/ | /ka\textbf{t}-un/ |
+
+** Questions
+- What *kinds* of irregular verbs are there?
+- How can they be grouped?
+
+* Irregular verbs
+** Historical origins
+- Inherited from Proto-Atayal:
+  - Mostly shared among Atayal dialects.
+- Innovated in individual dialects via:
+  - Regular sound changes.
+  - Sporadic changes.
+
+** Inherited
+- Lexically determined PNS.
+- Alternations of final /*ə/.
+- Highly irregular verbs.
+
+** PNS
+*Pseudo nasal substitution* [cite: @blust2013 244]:
+{{{br}}}
+Substitution of the initial consonant of a root with /m/
+
+** PNS
+| Dialect   | Stem               | AV                 | Gloss       |
+|-----------+--------------------+--------------------+-------------|
+| Matu'uwal | /\textbf{p}umuwaʔ/ | /\textbf{m}umuwaʔ/ | to plant    |
+| Plngawan  | /\textbf{p}aʔas/   | /\textbf{m}aʔas/   | to be happy |
+| Skikun    | /\textbf{b}iq/     | /\textbf{m}iq/     | to give     |
+| Matu'aw   | /\textbf{b}wak/    | /\textbf{m}wak/    | to cut open |
+
+** PNS
+| Dialect | Stem             | AV               | Gloss   |
+|---------+------------------+------------------+---------|
+| Skikun  | /\textbf{ʔ}agal/ | /\textbf{m}agal/ | to take |
+| Klesan  | /\textbf{k}ita/  | /\textbf{m}ita/  | to look |
+| Squliq  | /\textbf{q}aniq/ | /\textbf{m}aniq/ | to eat  |
+
+** No PNS
+| Dialect   | Stem             | AV                   | Gloss   |
+|-----------+------------------+----------------------+---------|
+| Plngawan  | /\textbf{ʔ}imaw/ | /\textbf{ʔ}<um>imaw/ | to stir |
+| Matu'aw   | /\textbf{k}ut/   | /\textbf{k}<um>ut/   | to chop |
+| Matu'uwal | /\textbf{q}alup/ | /\textbf{q}<um>alup/ | to hunt |
+
+** PNS in Atayal
+- Obligatory for roots beginning in /p-/ and /b-/.
+- Lexically determined for roots in /ʔ-/, /k-/, and /q-/ (< /*k-/).
+- AV beginning with /m-/ could be almost anything.
+
+** Final schwa
+- PAn /*ə/ > /u/ in the final syllable before Proto-Atayalic.
+  - This led to alternations in verbal roots with /*ə/ in the final syllable.
+
+** Final schwa
+| Dialect   | AV                   | PV/LV               | Gloss           |
+|-----------+----------------------+---------------------+-----------------|
+|           |                      | <30>                | <30>            |
+| Matu'uwal | /t<um>al\textbf{u}k/ | /talk-un/           | to cook         |
+| Plngawan  | /teh\textbf{u}k/     | /tehk-an/           | to arrive       |
+| Klesan    | /t<əm>ap\textbf{u}s/ | /təp\textbf{ə}s-an/ | to winnow       |
+| Squliq    | /mah\textbf{u}q/     | /bəh\textbf{ə}q-un/ | to wash clothes |
+
+** Inherited irregularity
+#+begin_small
+'to cry'
+| Dialect   | AV                           | AV.neg    | PV/LV                         |
+|-----------+------------------------------+-----------+-------------------------------|
+| Matu'uwal | /mi\textbf{ŋ}i{{{bl(l)}}}is/ | /ʔiŋilis/ | /{{{bl(l)}}}i\textbf{ŋ}is-an/ |
+| Skikun    | /mə\textbf{ŋ}i{{{bl(l)}}}is/ | +???+     | /{{{bl(l)}}}ə\textbf{ŋ}is-un/ |
+| Plngawan  | /maŋi{{{bl(l)}}}is/          | /caŋilis/ | /caŋis-an/                    |
+| Klesan    | /məŋi{{{bl(l)}}}is/          | +???+     | /ŋis-an/                      |
+| Matu'aw   | /maŋilis/                    | /ŋilis/   | /pa-ŋilis-un/                 |
+Inherited metathesis/deletion in suffixed forms,
+{{{br}}}but regularized in Matu'aw.
+#+end_small
+
+** Inherited irregularity
+'to buy'
+| Dialect       | AV             | PV                  |
+|---------------+----------------+---------------------|
+| Matu'uwal (f) | /ma-baiy/      | /bay\textbf{s}-un/  |
+| Plngawan      | /miniy/        | /bina\textbf{r}-un/ |
+| Squliq        | /mə-baziy/     | /bəzi\textbf{r}-un/ |
+| Skikun        | /me\textbf{s}/ | /be\textbf{s}-un/   |
+
+** Inherited irregularity
+'to go'
+| Dialect   | AV               | LV                     | Opt?                              |
+|-----------+------------------+------------------------+-----------------------------------|
+| Matu'uwal | /\textbf{m}usaʔ/ | /ʔusa\textbf{l}-an/    | /\textbf{h}al-ay/                 |
+| Plngawan  | /\textbf{m}usaʔ/ | /ʔ<in>sa\textbf{l}-an/ | /\textbf{h}al-a, \textbf{h}al-i/  |
+| Skikun    | /\textbf{m}usaʔ/ | /sa\textbf{l}-an/      | /\textbf{h}al-a, \textbf{h}al-ay/ |
+| Squliq    | /\textbf{m}usaʔ/ | /ʔəsan/                | /\textbf{h}al-a/                  |
+- Implications for irregular optatives?
+
+** Innovated
+- Changes of non-final /*ə/ (Matu'uwal and Plngawan only).
+- Loans.
+- Gender register system collapse.
+
+** Non-final schwa
+'to tie'
+| Dialect   | AV               | LV                 |
+|-----------+------------------+--------------------|
+| Matu'uwal | /m\textbf{ə}hul/ | /b\textbf{a}hl-an/ |
+| Plngawan  | /m\textbf{a}hul/ | /b\textbf{a}hl-an/ |
+
+** Non-final schwa
+'to count'
+| Dialect   | AV         | PV/LV              |
+|-----------+------------+--------------------|
+| Matu'uwal | /l<um>pug/ | /l\textbf{a}pg-un/ |
+| Plngawan  | /l<um>puw/ | /l\textbf{a}pg-an/ |
+
+** Loans
+#+begin_small
+| Dialect  | AV                  | PV/LV                       | Gloss    | Source |
+|----------+---------------------+-----------------------------+----------+--------|
+| Klesan   | /\textbf{s}<əm>abu/ | /\textbf{c}əbun/            | to wrap  | Squliq |
+| Plngawan | /ʔ<um>p\textbf{i}x/ | /ʔapx-an/ʔap\textbf{i}x-an/ | to press | Truku  |
+#+end_small
+
+** Gender register
+- A lexical register system that existed in Atayal, but has since collapsed in almost all dialects [cite: @li1982a].
+  - Female register: inherited forms.
+  - Male register: sporadic changes.
+
+** Gender register
+- Some verbs have forms from two registers combined into one paradigm.
+- Since the forms are etymologically related, I am calling this *pseudo-suppletion* [cite: @rudes1980 660].
+
+** Gender register
+| Dialect   | AV          | PV/LV      | Gloss       |
+|-----------+-------------+------------+-------------|
+| Klesan    | /mita/      | /tex-an/   | to look     |
+| Skikun    | /kətayux/   | /kətal-an/ | to look     |
+| Matu'uwal | /mənubuwag/ | /nubu-un/  | to drink    |
+| Klesan    | /həŋəlyuŋ/  | /həŋal-an/ | to shoulder |
+| Matu'aw   | /ma-bayiy/  | /binas-un/ | to buy      |
+
+* Conclusion
+** Conclusion
+- Cycle of irregularity: old irregular forms get levelled, new ones arise.
+- Gender register sporadically preserved as pseudo-suppletives.
+
+** Future research
+How many *principal parts* do Atayal verbs have?
+{{{br}}}
+What are they?
+
+** References
