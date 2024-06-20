@@ -8,6 +8,7 @@
 - CVCVC or CVCCVC word structure.
 
 ** [[./img/map.png]]
+
 ** Roadmap
 - Defining irregular verbs.
 - Types of irregular verbs in Atayal.
@@ -56,6 +57,7 @@ Changes other than applying regular phonological rules after affixation.
 ** Questions
 - What *kinds* of irregular verbs are there?
 - How can they be grouped?
+
 ** [[./img/brace.jpg]]
 
 * Irregular verbs

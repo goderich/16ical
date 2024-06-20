@@ -1,4 +1,4 @@
-.reveal strong, .reveal b {
+.reveal strong, .reveal b, .reveal em strong {
     color: red;
     font-style: normal;
 }
